@@ -1,0 +1,22 @@
+
+[	java:S112A"FDefine and throw a dedicated exception instead of using a generic one.(—ª¾é
+`	java:S112m"FDefine and throw a dedicated exception instead of using a generic one.(âÌ·ùÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ïÖï¡
+‚
+java:S4165j"gRemove this useless assignment; "userInput" already holds the assigned value along all execution paths.(ú£ûÒÿÿÿÿÿ
+P
+java:S1118":Add a private constructor to hide the implicit public one.(¦÷¼Ş
+E	java:S106"+Replace this use of System.out by a logger.(øºÑûúÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(Ş©•ö
+E	java:S106"+Replace this use of System.out by a logger.(øºÑûúÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(ÒĞšÒüÿÿÿÿ
+E	java:S106$"+Replace this use of System.out by a logger.(øºÑûúÿÿÿÿ
+E	java:S106("+Replace this use of System.out by a logger.(›§Óşÿÿÿÿ
+E	java:S1061"+Replace this use of System.out by a logger.(øºÑûúÿÿÿÿ
+E	java:S1065"+Replace this use of System.out by a logger.(›§Óşÿÿÿÿ
+E	java:S106>"+Replace this use of System.out by a logger.(øºÑûúÿÿÿÿ
+E	java:S106E"+Replace this use of System.out by a logger.(şğïÆûÿÿÿÿ
+E	java:S106Q"+Replace this use of System.out by a logger.(øºÑûúÿÿÿÿ
+?	java:S106V"+Replace this use of System.out by a logger.(ÚÁ:
+E	java:S106c"+Replace this use of System.out by a logger.(øºÑûúÿÿÿÿ
+E	java:S106q"+Replace this use of System.out by a logger.(–Û›´ıÿÿÿÿ

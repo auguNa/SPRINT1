@@ -1,0 +1,8 @@
+
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(æí¸¸şÿÿÿÿ8Œï²ú1J$5c4613fb-47a4-4ad3-a242-06cd180c2a29
+
+java:S1128"9Remove this unused import 'org.junit.jupiter.api.Nested'.(²şûæüÿÿÿÿ8Š¾ú1J$64bda836-e0c9-4d2f-9a75-0de97526410c
+…
+java:S1128"=Remove this unused import 'org.junit.jupiter.api.Assertions'.(âè¨ùÿÿÿÿ8Š¾ú1J$2295b23e-8906-4786-9334-acb0a957bceb
+n
+java:S5960"+Remove this assertion from production code.(ÜùÜ8”ï²ú1J$915a635c-3da1-48a5-9b4a-92cbc619a059

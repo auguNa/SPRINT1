@@ -1,0 +1,8 @@
+
+P
+java:S1141"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¡«şØûÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(ÁõÒ¸ùÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ
+@	java:S106 "+Replace this use of System.out by a logger.(äìÎÆ

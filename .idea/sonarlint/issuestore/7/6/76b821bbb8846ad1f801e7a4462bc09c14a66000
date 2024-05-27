@@ -1,0 +1,13 @@
+
+•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ˆŸÒJ$2115f87b-c511-4e5c-959f-05684b0cb3d0
+k	java:S106"+Replace this use of System.out by a logger.(Ù÷İÈıÿÿÿÿJ$a8781802-9ac2-41bb-8636-57dd8e743071
+f	java:S106"+Replace this use of System.out by a logger.(¢¾ÁJ$4b4819cd-4815-46ac-bde3-328fc81f2c06
+f	java:S106("+Replace this use of System.out by a logger.(äèŞÊJ$c84ac27a-d9a0-4945-8697-dc0068b0aabe
+f	java:S106."+Replace this use of System.out by a logger.(²˜ÅÖJ$b9b930c5-88ed-4985-a3a9-2a9d1bd6b7cb
+f	java:S1060"+Replace this use of System.out by a logger.(Ã±ğÁJ$dffc4019-2cb5-432b-8fc4-9e01c1cdd6fc
+‚
+java:S10755"ARefactor your code to get this URI from a customizable parameter.(ƒüûóúÿÿÿÿJ$665ed846-e595-4a63-a86a-8950cc009557
+e	java:S106:"+Replace this use of System.out by a logger.(œ ‰HJ$65bb36cd-edb4-40d8-b90e-a661db1537ac
+k	java:S106="+Replace this use of System.out by a logger.(ÃáÈÿÿÿÿÿJ$ce63b4eb-7985-4382-91cf-8cfe787c9bd7
+a
+java:S1128"%Remove this unused import 'java.awt'.(ï´µ©J$5e47a828-f831-4701-ac9b-f18e59cb8c69

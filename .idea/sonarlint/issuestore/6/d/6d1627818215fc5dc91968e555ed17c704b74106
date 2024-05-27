@@ -1,0 +1,6 @@
+
+Ž
+java:S1192
+"MDefine a constant instead of duplicating this literal "Restaurant A" 3 times.(»ÉÉ·úÿÿÿÿJ$42c08611-b4fd-4d59-9c2a-d27103663a84
+š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(°Ðø›ùÿÿÿÿJ$08928524-e934-4b53-bd23-629841e05688
+f	java:S106"+Replace this use of System.out by a logger.(ÿþ«ÄJ$ee0a25c4-7753-4c41-837e-98389be4fbad

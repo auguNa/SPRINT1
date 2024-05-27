@@ -1,0 +1,59 @@
+
+P
+ src/S1_01/N1Ejercicio1/Main.java,d\3\d3688f02cb08c07c623a4c3549cfbb36c54fe047
+P
+ src/S1_01/N1Ejercicio2/Main.java,5\c\5caedb620293b6527e03e07a2cae639f869a19f4
+P
+ src/S1_01/N2Ejercicio1/Main.java,7\d\7dc3be2e4c6a99beb605020f20f5707ff881e466
+P
+ src/S1_01/N3Ejercicio1/Main.java,a\9\a9316263a2b77848860c837fd2f0c8c2055e1a5c
+P
+ src/S1_01/N3Ejercicio1/News.java,3\b\3b4202812bc7eb0813585dfde206176fb7757db4
+P
+ src/S1_02/N1Ejercicio1/Main.java,8\8\885bf6d36f4323ce35df814bf39fcd27aa66aac3
+P
+ src/S1_02/N2Ejercicio1/Main.java,5\d\5d1cb8d12aac7030de9d9bc71c7484f735b9a85b
+Q
+!src/S1_02/N2Ejercicio1/Entry.java,e\4\e49d2676790a859591592e8897684580983ee1ed
+P
+ src/S1_03/N1Ejercicio1/Main.java,5\1\51ba23b434b66099d180300f1b498fbf7d666be9
+P
+ src/S1_03/N1Ejercicio2/Main.java,6\5\6562f4abb44430a703a3e8ff6819324677958bb0
+P
+ src/S1_03/N1Ejercicio3/Main.java,7\6\76b821bbb8846ad1f801e7a4462bc09c14a66000
+P
+ src/S1_03/N2Ejercicio1/Main.java,6\d\6d1627818215fc5dc91968e555ed17c704b74106
+P
+ src/S1_03/N2Ejercicio2/Main.java,9\9\99fb3a0a1823b99f24747793d7bbb95f6a9d4e10
+U
+%src/S1_04/N1Ejercicio1/MonthList.java,5\a\5a3f86699fd2d128fe3018738237b2f714994f74
+Y
+)src/S1_04/N1Ejercicio1/MonthListTest.java,5\8\5889d11b409ac6609d9789f58a87bf38b537a7c0
+X
+(src/S1_04/N1Ejercicio2/CalculateDNI.java,a\2\a2a3c6d3d0a90384671c6946e63d6c46667885e9
+\
+,src/S1_04/N1Ejercicio2/CalculateDNITest.java,4\9\497b0f0228183aaf4ad62861920128a141cdc823
+X
+(src/S1_04/N1Ejercicio3/ArrayHandler.java,a\c\ac49ac4674fde9ee4a5eab48c5f66ef9bbfa962a
+\
+,src/S1_04/N1Ejercicio3/ArrayHandlerTest.java,1\2\12160724916caf97715a07fd45167d6748bd19d2
+_
+/src/S1_04/N2Ejercicio1/StringLengthMatcher.java,8\a\8a6a7810a8fbed5f3c3c4cc56908e1c520112cd7
+c
+3src/S1_04/N2Ejercicio1/StringLengthMatcherTest.java,2\9\2910dcb8e29e27c9faaa8f3bfd9bb4e840b9818d
+^
+.src/S1_04/N3Ejercicio1/IntegerValueHolder.java,1\b\1be38ca00c0dedea9b8a4e4d153bc2e1b04f1f71
+b
+2src/S1_04/N3Ejercicio1/IntegerValueHolderTest.java,b\6\b6a2dfe133bdb8ab8f70a9e7b8be09e7cf561ee9
+V
+&src/S1_04/N3Ejercicio2/PersonTest.java,d\b\dbaaa40483bbc67080b088c7c1a55ac4f8190a5e
+R
+"src/S1_04/N3Ejercicio2/Person.java,1\9\195a9454fb325afec83b6768a1a7be228962ef35
+U
+%src/S1_04/N3Ejercicio3/ArrayTest.java,a\0\a01f6d5785b2ad89de4768f29c3062318700fb40
+Y
+)src/S1_04/N3Ejercicio3/ArrayTestTest.java,7\4\74bab04ceedf4a7a683e6aeebf21e3fecd45487e
+Y
+)src/S1_04/N3Ejercicio4/ArrayListTest.java,1\4\140f98057b7a07d3474c352200c60cf723aa985e
+]
+-src/S1_04/N3Ejercicio4/ArrayListTestTest.java,d\d\dd6a0f4dd3862967bb33262f984b9cce49cf4995
