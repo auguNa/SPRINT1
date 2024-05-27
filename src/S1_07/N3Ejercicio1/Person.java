@@ -1,6 +1,6 @@
-package S1_07.N2Ejercicio1;
+package S1_07.N3Ejercicio1;
 
-@JsonSerializable(directory = "C:\\Users\\augus\\Desktop\\BCN ACTIVA\\ITAcademy\\SPRINT1A\\src\\S1_07\\N2Ejercicio1")
+@JsonSerializable(directory = "C:\\Users\\augus\\Desktop\\BCN ACTIVA\\ITAcademy\\SPRINT1A\\src\\S1_07\\N3Ejercicio1")
 
 public class Person {
     private String name;
