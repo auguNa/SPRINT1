@@ -12,11 +12,11 @@ public class CSVReader {
         try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
             String line;
             while ((line = br.readLine()) != null) {
-                String[] values = line.split(" ");
-                if (values.length == 4) {
+                String[] values = line.split(",");
+                if (values.length == 3) {
                     String firstName = values[0];
                     String lastName = values[1];
-                    String dni = values[3];
+                    String dni = values[2];
                     people.add(new Person(firstName, lastName, dni));
                 }
             }
