@@ -16,7 +16,7 @@ public class Main {
         restaurants.add(r2);
         restaurants.add(r3);
         restaurants.add(r4);
-
+//add comment sout
         for (Restaurant r : restaurants) {
             System.out.println(r);
         }

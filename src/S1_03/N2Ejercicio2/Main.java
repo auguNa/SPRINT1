@@ -20,7 +20,7 @@ public class Main {
         restaurants.add(r4); // This should not be added as it's a duplicate
         restaurants.add(r5);
 
-        // Print the TreeSet (which will be sorted)
+        System.out.println("Print the sorted list: ");
         for (Restaurant r : restaurants) {
             System.out.println(r);
         }

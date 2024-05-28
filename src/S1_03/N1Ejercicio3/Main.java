@@ -1,6 +1,5 @@
 package S1_03.N1Ejercicio3;
 
-import java.awt.*;
 import java.io.*;
 import java.util.*;
 import java.util.List;
@@ -11,18 +10,27 @@ public class Main {
         Random random = new Random();
 
         // Read the countries and capitals from the file
-        try (BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\augus\\Desktop\\BCN ACTIVA\\ITAcademy\\Sprint_1\\src\\main\\java\\s01_03\\n1ejercicio3\\countries.txt"))) {
+        // Relative path to countries.txt from the project directory
+        String relativePath = System.getProperty("user.dir") + "\\src\\s1_03\\N1Ejercicio3";
+        String countriesFile = "\\countries.txt";
+        String playerFile = "\\Score.txt";
+
+        File file = new File(relativePath + countriesFile);
+        try {
+            FileReader fileReader = new FileReader(file);
+            BufferedReader br = new BufferedReader(fileReader);
             String line;
 
             while ((line = br.readLine()) != null) {
                 String[] parts = line.split(" ");
+
                 if (parts.length == 2) {
                     countryCapitalMap.put(parts[0].trim(), parts[1].trim());
                 }
             }
+            br.close();
         } catch (IOException e) {
             System.out.println("Error reading file: " + e.getMessage());
-            return;
         }
 
         Scanner scanner = new Scanner(System.in);
@@ -49,15 +57,13 @@ public class Main {
             }
         }
 
-        // Save the result to classificacio.txt
-        String scoreFilePath = "C:\\Users\\augus\\Desktop\\BCN ACTIVA\\ITAcademy\\Sprint_1\\src\\main\\java\\s01_03\\n1ejercicio3\\Score.txt";
-        try (BufferedWriter bw = new BufferedWriter(new FileWriter(scoreFilePath, true))) {
+        // Save the result to Score.txt
+        try (BufferedWriter bw = new BufferedWriter(new FileWriter(relativePath + playerFile, true))) {
             bw.write(userName + ": " + score);
             bw.newLine();
         } catch (IOException e) {
             System.out.println("Error writing file: " + e.getMessage());
         }
-
         System.out.println("You scored " + score + " points.");
     }
 }
