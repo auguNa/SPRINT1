@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Menu {
+
     private static void displayPeople(List<Person> people) {
         System.out.printf("%-15s %-20s %-10s%n", "___Name___", "____Surname___", "__NIF__");
         for (Person person : people) {
@@ -18,11 +19,12 @@ public class Menu {
     }
 
     public static void main(String[] args) {
-        String filePath = "C:\\Users\\augus\\Desktop\\BCN ACTIVA\\ITAcademy\\SPRINT1A\\src\\S1_03\\N3Ejercicio2\\people.csv";
+                String filePath = System.getProperty("user.dir") + "\\src\\s1_03\\N3Ejercicio1\\people.csv";
         List<Person> people = CSVReader.readCSV(filePath);
 
         Scanner scanner = new Scanner(System.in);
-        while (true) {
+        int choice;
+        do {
             System.out.println("1.- Enter person.");
             System.out.println("2.- Show people ordered by name (A-Z).");
             System.out.println("3.- Show people ordered by name (Z-A).");
@@ -32,13 +34,10 @@ public class Menu {
             System.out.println("7.- Show people ordered by DNI (9-1).");
             System.out.println("0.- Exit.");
 
-            int choice = scanner.nextInt();
-            scanner.nextLine();
+            choice = scanner.nextInt();
+            scanner.nextLine();  // consume newline
 
             switch (choice) {
-                case 0:
-                    CSVWriter.writeCSV(filePath, people);
-                    return;
                 case 1:
                     System.out.print("Enter first name: ");
                     String firstName = scanner.nextLine();
@@ -46,7 +45,9 @@ public class Menu {
                     String lastName = scanner.nextLine();
                     System.out.print("Enter DNI: ");
                     String dni = scanner.nextLine();
-                    people.add(new Person(firstName, lastName, dni));
+                    Person newPerson = new Person(firstName, lastName, dni);
+                    people.add(newPerson);
+                    CSVWriter.writeCSV(filePath, people); // Write to CSV after adding the new person
                     break;
                 case 2:
                     sortPeople(people, Comparator.comparing(Person::getFirstName));
@@ -72,9 +73,12 @@ public class Menu {
                     sortPeople(people, Comparator.comparing(Person::getDni).reversed());
                     displayPeople(people);
                     break;
+                case 0:
+                    System.out.println("Exiting...");
+                    break;
                 default:
                     System.out.println("Invalid option, please try again.");
             }
-        }
+        } while (choice != 0);
     }
 }
