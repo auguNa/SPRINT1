@@ -10,20 +10,6 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\src\S1_03\N3Ejercicio2\N3Ejercicio1\people.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="diff.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
       </map>
     </option>
   </component>

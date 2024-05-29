@@ -13,7 +13,6 @@ public class CalculateDNI {
         } else {
             System.out.println("Error: The DNI has to be 9 characters.");
         }
-
         sc.close();
     }
 
