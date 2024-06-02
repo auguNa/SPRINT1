@@ -3,7 +3,7 @@ package S1_04.N1Ejercicio2;
 import java.util.Scanner;
 
 public class CalculateDNI {
-    public static void main(String[] args) {
+    public void start(){
         Scanner sc = new Scanner(System.in);
         System.out.println("Type the DNI number with letter: ");
         String userDNI = sc.nextLine().toUpperCase();

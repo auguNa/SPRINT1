@@ -1,10 +1,14 @@
 package S1_07.N2Ejercicio1;
 
-@JsonSerializable(directory = "C:\\Users\\augus\\Desktop\\BCN ACTIVA\\ITAcademy\\SPRINT1A\\src\\S1_07\\N2Ejercicio1")
+import java.io.File;
+
+@JsonSerializable(directory = "src/S1_07/N2Ejercicio1")
 
 public class Person {
+
     private String name;
     private int age;
+
 
     public Person(String name, int age) {
         this.name = name;

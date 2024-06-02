@@ -7,8 +7,6 @@ public class OnlineWorker extends Worker {
         super(firstName, lastName, pricePerHour);
     }
 
-
-
     @Override
     public double calculateSou(int hoursWorked) {
         return (hoursWorked * pricePerHour) + INTERNET_RATE;

@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import static org.junit.jupiter.api.Assertions.*;
 
 class ArrayListTestTest {
-    // Create objects of different types
+
     String str = "Hello";
     Integer num = 42;
     Double dbl = 3.14;

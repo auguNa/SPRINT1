@@ -1,7 +1,5 @@
 package S1_07.N2Ejercicio1;
 
-import com.fasterxml.jackson.databind.DatabindException;
-
 import java.io.IOException;
 
 public class Main {

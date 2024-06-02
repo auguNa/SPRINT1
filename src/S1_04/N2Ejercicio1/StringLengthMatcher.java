@@ -15,7 +15,7 @@ public class StringLengthMatcher extends FeatureMatcher<String, Integer> {
         return actual.length();
     }
 
-    // Factory method for easier usage
+
     public static Matcher<String> hasLength(int length) {
         return new StringLengthMatcher(is(length));
     }

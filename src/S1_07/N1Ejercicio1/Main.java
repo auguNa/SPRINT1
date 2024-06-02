@@ -6,7 +6,7 @@ public class Main {
         OnlineWorker onlineWorker = new OnlineWorker("Jane", "Smith", 25.0);
         InPersonWorker inPersonWorker = new InPersonWorker("Jim", "Beam", 22.0);
 
-        int hoursWorked = 160; // Example hours worked in a month
+        int hoursWorked = 160;
 
         System.out.println("Online Worker Salary: €" + onlineWorker.calculateSou(hoursWorked));
         System.out.println("In-Person Worker Salary: €" + inPersonWorker.calculateSou(hoursWorked));
