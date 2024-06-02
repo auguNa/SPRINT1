@@ -6,11 +6,8 @@ public class Main {
     public static void main(String[] args) {
         SmartPhone myPhone = new SmartPhone();
         Generic generic = new Generic();
-
-        // Pass Smartphone to the method limited by Phone
         generic.usePhone(myPhone);
 
-        // Pass Smartphone to the method limited by Smartphone
         generic.useSmartphone(myPhone);
     }
 }

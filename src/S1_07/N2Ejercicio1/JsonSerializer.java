@@ -5,7 +5,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import java.io.File;
 import java.io.IOException;
 
-
 public class JsonSerializer {
     public static void serialize(Object obj) throws IOException {
         Class<?> objClass = obj.getClass();
