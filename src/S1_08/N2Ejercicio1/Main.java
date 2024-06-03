@@ -16,7 +16,6 @@ public class Main {
         names.add("agu");
 
         List<String> filteredNames = filterNames(names);
-
         filteredNames.forEach(System.out::println);
     }
 

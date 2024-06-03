@@ -14,7 +14,6 @@ public class Main {
         mixedList.add(5);
         mixedList.add("grape");
 
-        // Sort the list based on the length of strings in reverse order
         mixedList.sort(Comparator.comparing(Object::toString, Comparator.comparingInt(String::length)).reversed());
 
         System.out.println("Sorted list (from longest to shortest): " + mixedList);
