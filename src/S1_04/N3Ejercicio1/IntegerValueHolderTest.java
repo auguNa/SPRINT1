@@ -10,7 +10,6 @@ class IntegerValueHolderTest {
             IntegerValueHolder holder1 = new IntegerValueHolder(100);
             IntegerValueHolder holder2 = new IntegerValueHolder(100);
 
-            // Assert that the values are equal
             assertThat(holder1.getValue()).isEqualTo( holder2.getValue());
         }
 
@@ -19,7 +18,6 @@ class IntegerValueHolderTest {
             IntegerValueHolder holder1 = new IntegerValueHolder(100);
             IntegerValueHolder holder2 = new IntegerValueHolder(200);
 
-            // Assert that the values are not equal
             assertThat(holder1.getValue()).isNotEqualTo(holder2.getValue());
 
         }

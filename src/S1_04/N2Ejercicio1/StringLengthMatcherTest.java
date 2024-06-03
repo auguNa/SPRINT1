@@ -8,7 +8,6 @@ import static org.hamcrest.Matchers.not;
 class StringLengthMatcherTest {
     @Test
     public void testStringLength() {
-        // Check that the string "Mordor" does NOT have a length of 8
         assertThat("Mordor", not(hasLength(8)));
     }
 }

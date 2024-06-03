@@ -15,7 +15,6 @@ class ArrayListTestTest {
 
     @Test
     public void testArrayList() {
-        // CCreate an ArrayList and add the objects
         ArrayList<Object> list = new ArrayList<>();
         list.add(str);
         list.add(num);
