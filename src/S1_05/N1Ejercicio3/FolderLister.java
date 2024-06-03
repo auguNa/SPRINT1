@@ -17,15 +17,12 @@ public class FolderLister {
 
         for (String file : fileList) {
             File currentFile = new File(directory.getPath() + File.separator  + file);
-            //   System.out.println("wearehere"+currentFile);
 
             long lastModifiedTime = currentFile.lastModified();
             Date lastModifiedDate = new Date(lastModifiedTime);
             SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 
-
             writer.write(indent + (currentFile.isDirectory() ? "D " : "F ") + file + " (Last modified: " + sdf.format(lastModifiedDate) + ")\n");
-
 
             if (currentFile.isDirectory()) {
                 listDirectoryRecursive(currentFile, indent + "    ", writer);
@@ -35,10 +32,9 @@ public class FolderLister {
 
     public void saveDirectoryTreeToFile(File directory, String outputPath) {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(outputPath))) {
-
             listDirectoryRecursive(directory, "", writer);
         } catch (IOException e) {
-            e.printStackTrace();
+            System.out.println("Error: " + e.getMessage());
         }
     }
 }

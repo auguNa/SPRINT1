@@ -8,28 +8,26 @@ import java.io.File;
 public class Main {
     public static void main(String[] args) {
         try {
-            // Paths de los directorios
-            String inputDirPath = "C:\\Users\\augus\\Desktop\\BCN ACTIVA\\ITAcademy\\SPRINT1A\\src\\S1_05";
-            String encryptedDirPath = "C:\\Users\\augus\\Desktop\\BCN ACTIVA\\ITAcademy\\SPRINT1A\\src\\S1_05_encrypted";
-            String decryptedDirPath = "C:\\Users\\augus\\Desktop\\BCN ACTIVA\\ITAcademy\\SPRINT1A\\src\\S1_05_decrypted";
+            String currentDirectoryPath = System.getProperty("user.dir");
+            File currentDirectory = new File(currentDirectoryPath);
+
+            String inputDirPath = currentDirectoryPath;
+            String encryptedDirPath = currentDirectory + File.separator + "S1_05_encrypted";
+            String decryptedDirPath = currentDirectory + File.separator + "S1_05_decrypted";
 
             File inputDir = new File(inputDirPath);
             File encryptedDir = new File(encryptedDirPath);
             File decryptedDir = new File(decryptedDirPath);
 
-            // Crear directorios de salida si no existen
             encryptedDir.mkdirs();
             decryptedDir.mkdirs();
 
-            // Generar clave secreta y IV
             SecretKey secretKey = CryptoUtils.generateSecretKey();
             IvParameterSpec iv = CryptoUtils.generateIv();
 
-            // Encriptar todos los archivos
             processDirectory(inputDir, encryptedDir, secretKey, iv, true);
             System.out.println("Archivos encriptados exitosamente.");
 
-            // Desencriptar todos los archivos
             processDirectory(encryptedDir, decryptedDir, secretKey, iv, false);
             System.out.println("Archivos desencriptados exitosamente.");
 
