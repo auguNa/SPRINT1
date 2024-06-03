@@ -16,8 +16,6 @@ public class Main {
 
         // Sort the list based on the length of strings
         mixedList.sort(Comparator.comparing(Object::toString, Comparator.comparingInt(String::length)));
-
-        // Print the sorted list
         System.out.println("Sorted list: " + mixedList);
     }
 }

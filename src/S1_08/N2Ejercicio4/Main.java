@@ -18,12 +18,10 @@ public class Main {
         list.add("example");
         list.add("car");
 
-        // Sort alphabetically by their first character
         List<String> sortedByFirstChar = list.stream()
                 .sorted((s1, s2) -> Character.compare(s1.charAt(0), s2.charAt(0)))
                 .collect(Collectors.toList());
 
-        // Sort strings containing an "e" first
         List<String> sortedWithEFirst = list.stream()
                 .sorted(new Comparator<String>() {
                     @Override
@@ -41,12 +39,10 @@ public class Main {
                 })
                 .collect(Collectors.toList());
 
-        // Modify all elements that have an 'a' to change 'a' to '4'
         List<String> modifiedList = sortedWithEFirst.stream()
                 .map(s -> s.replace('a', '4'))
                 .collect(Collectors.toList());
 
-        // Show only elements that are numeric
         List<String> numericElements = modifiedList.stream()
                 .filter(s -> s.matches("\\d+"))
                 .collect(Collectors.toList());

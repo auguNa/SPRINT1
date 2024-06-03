@@ -17,7 +17,6 @@ public class Main {
         // Sort the list based on the length of strings in reverse order
         mixedList.sort(Comparator.comparing(Object::toString, Comparator.comparingInt(String::length)).reversed());
 
-        // Print the sorted list
         System.out.println("Sorted list (from longest to shortest): " + mixedList);
     }
 }

@@ -12,8 +12,8 @@ public class Main {
             File currentDirectory = new File(currentDirectoryPath);
 
             String inputDirPath = currentDirectoryPath;
-            String encryptedDirPath = currentDirectory + File.separator + "S1_05_encrypted";
-            String decryptedDirPath = currentDirectory + File.separator + "S1_05_decrypted";
+            String encryptedDirPath = currentDirectory + File.separator + "src" + File.separator + "N3Ejercicio1" + File.separator + "S1_05_encrypted";
+            String decryptedDirPath = currentDirectory + File.separator + "src" + File.separator + "N3Ejercicio1" + File.separator + "S1_05_decrypted";
 
             File inputDir = new File(inputDirPath);
             File encryptedDir = new File(encryptedDirPath);

@@ -17,6 +17,7 @@ public class Main {
         List<String> stringsWithOAndLengthGreaterThan5 = findStringsWithOAndLengthGreaterThan5(strings);
         System.out.println("Strings containing 'o' and length greater than 5: " + stringsWithOAndLengthGreaterThan5);
     }
+
     public static List<String> findStringsWithOAndLengthGreaterThan5(List<String> strings) {
         return strings.stream()
                 .filter(str -> str.contains("o") && str.length() > 5)

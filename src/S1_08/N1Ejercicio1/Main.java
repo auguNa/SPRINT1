@@ -4,7 +4,6 @@ import java.util.*;
 
 import static S1_08.N1Ejercicio1.StringFinder.findStringsWithO;
 
-
 public class Main {
     public static void main(String[] args) {
         List<String> strings = new ArrayList<>();
