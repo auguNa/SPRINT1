@@ -4,9 +4,9 @@ To run the FolderLister program from the command line, follow these steps:
    cd 'project_root'
 
 2. Compile the Java source file:
-   javac DirectoryLister.java
+   javac FolderLister.java
 
 3. Run the compiled program and follow the instructions:
-   java DirectoryLister.java
+   java FolderLister
 
    
