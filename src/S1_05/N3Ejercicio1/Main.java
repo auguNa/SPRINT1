@@ -1,5 +1,5 @@
 //Comment the line below when compile
-//package S1_05.N3Ejercicio1;
+package S1_05.N3Ejercicio1;
 
 import javax.crypto.SecretKey;
 import javax.crypto.spec.IvParameterSpec;
@@ -37,7 +37,7 @@ public class Main {
             System.out.println("Clave secreta (Base64): " + encodedKey);
             System.out.println("IV (Base64): " + encodedIv);
         } catch (Exception e) {
-            e.printStackTrace();
+            System.out.println("Error: " + e.getMessage());
         }
     }
 

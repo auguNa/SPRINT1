@@ -1,5 +1,5 @@
 //Comment the line below when compile
-//package S1_05.N3Ejercicio1;
+package S1_05.N3Ejercicio1;
 
 import javax.crypto.Cipher;
 import javax.crypto.CipherOutputStream;
