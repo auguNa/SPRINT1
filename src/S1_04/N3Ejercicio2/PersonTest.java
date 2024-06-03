@@ -18,7 +18,6 @@ class PersonTest {
         Person person1 = new Person("Alice");
         Person person2 = new Person("Alice");
         //Person person2 = person1;
-        // This assertion will pass because person1 and person2 reference different objects
         Assertions.assertThat(person1).isNotSameAs(person2);
     }
 
