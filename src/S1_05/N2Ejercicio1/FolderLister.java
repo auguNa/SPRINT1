@@ -1,5 +1,5 @@
 //line below to be commented when JAVA compile
-package S1_05.N2Ejercicio1;
+//package S1_05.N2Ejercicio1;
 
 import java.io.BufferedWriter;
 import java.io.File;

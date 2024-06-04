@@ -1,5 +1,5 @@
 //line below to be commented when JAVA compile
-package S1_05.N2Ejercicio1;
+//package S1_05.N2Ejercicio1;
 
 import java.io.*;
 import java.util.*;
@@ -10,7 +10,7 @@ public class Main {
         File currentDirectory = new File(currentDirectoryPath);
 
         String configuration = "config.properties";
-        String filePath = currentDirectory + File.separator + "src" + File.separator + "S1_05" + File.separator + "N1Ejercicio5" + File.separator + configuration;
+        String filePath = currentDirectory + File.separator + configuration;
 
         Properties properties = new Properties();
         try (InputStream input = new FileInputStream(filePath)) {
